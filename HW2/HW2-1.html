@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HW 2 - task 1</title>
+
+  <style>
+    .layer1 {
+      top: 150px;
+      position: relative;
+      background: #f0f0f0;
+      height: 250px;
+    }
+
+    .layer2 {
+      position: absolute;
+      top: 20px;
+      left: 600px;
+      line-height: 15px;
+    }
+
+    .new {
+      background: -moz-linear-gradient(#D0ECF4, #5BC9E1, #D0ECF4);
+      background: -webkit-gradient(linear, 0 0, 0 100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5, #5BC9E1));
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+      padding: 3px 7px;
+      color: #333;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      border: 1px solid #666;   }
+
+  </style>
+</head>
+
+<body>
+   <div class="layer1">
+    <div class="layer2">
+      <form>
+        <p>
+         <font size="4" face="Times New Roman">Registration Form</font>
+         </p><br> 
+        <input type="email" class="form-control-plaintext" id="staticEmail" placeholder="email@example.com" required>
+        <label for="staticEmail" class="col-sm-2 col-form-label">&nbsp; Email </label> <br></br>
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        <label for="inputPassword" class="col-sm-2 col-form-label">&nbsp; Password</label>
+
+        <p><button class="new" onclick="window.location.href='http://google.com'">Open Google</button> &nbsp;
+          <button type="reset" class="new">Clean form</button></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
