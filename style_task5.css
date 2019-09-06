@@ -1,0 +1,44 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    max-height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.item img { 
+  height: 49vh;
+  width: 19.5vw;
+  }
+
+
+  @media (min-width: 1280px) and (max-width: 1599px) {
+    .container{
+        justify-content: space-between;
+    }
+    .item img{
+        margin: 5px;
+        max-width: 33vw;
+        width: 19em;
+        height: 23vh;
+    }
+
+    .nine img{
+        max-width: 60vw;
+        width: 38.5em;
+        height: 49vh;
+    }
+
+    .ten img{
+        max-width: 60vw;
+        width: 40em;
+        height: 49vh;
+    }
+  }

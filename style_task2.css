@@ -1,0 +1,30 @@
+#red
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff0404f1;
+    height: 400px;
+    width: 600px;
+}
+
+#blue
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #043fffd0;
+    height: 400px;
+    width: 600px;    
+}
+
+#green
+{
+    z-index: 1;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    background-color: #04ff04e0;
+    height: 400px;
+    width: 600px;
+}
